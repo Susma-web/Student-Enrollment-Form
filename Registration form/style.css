@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body {
+    background-color: rgb(247, 135, 8);
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(247, 14, 111);
+    color: rgb(126, 245, 28);
+    padding: 0.7rem;
+}
+section {
+    padding: 1rem 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+}
+form div {
+    margin-bottom: 0.8rem;
+}
+.inputs-labels,.radio-labels {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-right: 1rem;
+}
+.inputs {
+    padding: 0.2rem;
+    width: 90%;
+}
+.enroll-btn,.clear-btn {
+    padding: 0.5rem 1rem;
+    background-color: rgb(15, 241, 110);
+    border: none;
+    color: rgb(135, 7, 124);
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.display {
+    margin-top: 2rem;
+}
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.display article {
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 768px) {
+    .form {
+         width: 40%;
+    }
+    .display {
+        width: 60%;
+        margin-top: 0;
+        margin-left: 2rem;
+    }
+    section {
+        display: flex;
+    }
+}
+.card {
+    border: 2px solid rgb(235, 231, 7);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+.card-body {
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+}
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.email {
+    text-transform: lowercase;
+}
+.website {
+    text-transform: lowercase;
+}
+.image img {
+    width: 150px;
+    height: 150px;
+}
